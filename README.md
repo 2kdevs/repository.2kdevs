@@ -1,7 +1,7 @@
 Tutorial and example repository for setting up a GitHub-hosted Kodi repo. For an example of a repo created using this method (including submodules), see https://www.github.com/jurialmunkey/repository.jurialmunkey/.
 
 On Update:
-bump versions of repo in addon.xml, builds.txt, index.html and then run the gen
+bump versions of repo in addon.xml, builds.txt (on github seperate file), index.html and then run the gen
 copy zip to root
 
 # BASIC - How to setup for hosting on GitHub Pages
