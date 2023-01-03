@@ -212,7 +212,7 @@ TRAKTID = {
         'settings' : os.path.join(CONFIG.ADDON_DATA, 'plugin.video.fen', 'settings.xml'),
         'default'  : 'trakt.user',
         'data'     : ['trakt.user', 'trakt.token', 'trakt.refresh',  'trakt.expires'],
-        'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=trakt_authenticate)'}
+        'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)'}
 }
 
 
