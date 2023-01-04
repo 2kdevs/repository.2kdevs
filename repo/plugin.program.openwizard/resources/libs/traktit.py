@@ -210,8 +210,8 @@ TRAKTID = {
         'fanart'   : os.path.join(CONFIG.ADDONS, 'plugin.video.fen', 'fanart.png'),
         'file'     : os.path.join(CONFIG.TRAKTFOLD, 'fen_trakt'),
         'settings' : os.path.join(CONFIG.ADDON_DATA, 'plugin.video.fen', 'settings.xml'),
-        'default'  : 'trakt.user',
-        'data'     : ['trakt.user', 'trakt.token', 'trakt.refresh',  'trakt.expires'],
+        'default'  : 'trakt.token',
+        'data'     : ['trakt.user', 'trakt.token', 'trakt.refresh',  'trakt.expires', 'trakt.indicators_active'],
         'activate' : 'RunPlugin(plugin://plugin.video.fen/?mode=trakt.trakt_authenticate)'}
 }
 
